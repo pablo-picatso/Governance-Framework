@@ -1,0 +1,136 @@
+{
+  "governance_dimensions": {
+    "macht": {
+      "description": "IT-Abhängigkeiten und Vendor-Kontrolle",
+      "keywords": [
+        "IT-Vergabe",
+        "Outsourcing",
+        "externe Dienstleister",
+        "Cloud-Anbieter",
+        "Vendor-Lock-In",
+        "Microsoft",
+        "SAP",
+        "Oracle",
+        "Abhängigkeit",
+        "Lizenzen",
+        "Wartungsverträge",
+        "Service Level Agreement",
+        "SLA"
+      ],
+      "stellenplan_indicators": [
+        "IT-Leiter",
+        "CIO",
+        "Chief Information Officer",
+        "IT-Koordinator",
+        "Digitalisierungsbeauftragter",
+        "IT-Beschaffung",
+        "Vendor Management",
+        "Enterprise Architect",
+        "IT-Governance"
+      ],
+      "color": "#E74C3C"
+    },
+    "legitimation": {
+      "description": "Transparenz und demokratische Teilhabe",
+      "keywords": [
+        "Bürgerbeteiligung",
+        "Partizipation",
+        "Transparenz",
+        "Open Data",
+        "Offene Daten",
+        "Informationsfreiheit",
+        "Vertrauen",
+        "Rechenschaft",
+        "Nachvollziehbarkeit",
+        "Beteiligung",
+        "Mitsprache",
+        "Community"
+      ],
+      "stellenplan_indicators": [
+        "Bürgerbeteiligung",
+        "Transparenzbeauftragter",
+        "Open Data Koordinator",
+        "Partizipationsmanager",
+        "Community Manager",
+        "Datenschutzbeauftragter",
+        "Informationsfreiheitsbeauftragter",
+        "Ombudsperson"
+      ],
+      "color": "#3498DB"
+    },
+    "institution": {
+      "description": "Pfadabhängigkeiten und Wandelfähigkeit",
+      "keywords": [
+        "Modernisierung",
+        "Digitalisierung",
+        "Verfahren",
+        "Prozess",
+        "Legacy-System",
+        "Altsystem",
+        "Migration",
+        "Wandel",
+        "Innovation",
+        "Anpassung",
+        "Flexibilität",
+        "Agilität",
+        "Transformation"
+      ],
+      "stellenplan_indicators": [
+        "Change Manager",
+        "Organisationsentwicklung",
+        "Prozessmanager",
+        "Qualitätsmanagement",
+        "Business Analyst",
+        "Requirements Engineer",
+        "Projektmanager Digitalisierung",
+        "Innovation Manager"
+      ],
+      "color": "#F39C12"
+    },
+    "souveraenitaet": {
+      "description": "Digitale Selbstbestimmung und OSS-Adoption",
+      "keywords": [
+        "digitale Souveränität",
+        "Open Source",
+        "FOSS",
+        "Linux",
+        "Eigenentwicklung",
+        "Unabhängigkeit",
+        "Kontrolle",
+        "Autonomie",
+        "Interoperabilität",
+        "Standards",
+        "Selbstbestimmung",
+        "Security"
+      ],
+      "stellenplan_indicators": [
+        "CISO",
+        "Chief Information Security Officer",
+        "IT-Sicherheit",
+        "Open Source Koordinator",
+        "Datenschutz-Koordinator",
+        "Interoperabilitäts-Manager",
+        "Standards-Manager",
+        "Security Architect"
+      ],
+      "color": "#27AE60"
+    }
+  },
+  "nlp_configuration": {
+    "preprocessing": {
+      "remove_stopwords": true,
+      "lemmatization": true,
+      "min_word_length": 3,
+      "max_features": 10000
+    },
+    "topic_modeling": {
+      "algorithm": "BERTopic",
+      "n_topics": 20,
+      "min_topic_size": 10
+    },
+    "sentiment_analysis": {
+      "model": "german-sentiment-bert",
+      "threshold": 0.1
+    }
+  }
+}

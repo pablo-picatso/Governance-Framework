@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2024-09-30",
+    "total_municipalities": 120,
+    "description": "Stratifizierte Stichprobe: 40×Bayern, 40×Schleswig-Holstein, 40×Nordrhein-Westfalen",
+    "methodology": "Mixed-Methods Framework für kommunale Governance-Analyse"
+  },
+  "sample_design": {
+    "strategy": "stratified_federal",
+    "strata": [
+      "Bayern",
+      "Schleswig-Holstein",
+      "Nordrhein-Westfalen"
+    ],
+    "sample_per_stratum": 40,
+    "selection_criteria": [
+      "Alle kreisfreien Städte pro Bundesland",
+      "Größte kreisangehörige Städte/Gemeinden als Ergänzung",
+      "RIS-System-Diversität maximieren",
+      "API-Verfügbarkeit berücksichtigen"
+    ]
+  },
+  "bayern": {
+    "bundesland": "Bayern",
+    "sample_size": 40,
+    "characteristics": {
+      "kreisfreie_staedte": 25,
+      "kreisangehoerige": 15,
+      "hauptsystem": "SessionNet",
+      "api_anteil": 0.05
+    }
+  },
+  "schleswig_holstein": {
+    "bundesland": "Schleswig-Holstein",
+    "sample_size": 40,
+    "characteristics": {
+      "kreisfreie_staedte": 4,
+      "grosse_gemeinden": 36,
+      "hauptsystem": "SD.NET RIM",
+      "api_anteil": 0.05
+    }
+  },
+  "nordrhein_westfalen": {
+    "bundesland": "Nordrhein-Westfalen",
+    "sample_size": 40,
+    "characteristics": {
+      "kreisfreie_staedte": 22,
+      "kreisangehoerige": 18,
+      "hauptsystem": "ALLRIS",
+      "api_anteil": 0.3
+    }
+  }
+}
