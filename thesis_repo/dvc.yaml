@@ -1,0 +1,9 @@
+stages:
+  process:
+    cmd: python src/pipeline.py
+    deps:
+      - data/raw
+      - src/pipeline.py
+    outs:
+      - data/processed/classified_data.csv
+      - data/processed/indicators.csv

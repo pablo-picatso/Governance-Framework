@@ -1,0 +1,20 @@
+[​tool.poetry]
+name = "thesis-kommune"
+version = "0.1.0"
+description = "Automatisierte Pipeline für die Extraktion, Klassifikation und Analyse kommunaler Haushaltsdaten."
+authors = ["Example Author <author@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.0"
+numpy = "^1.24.0"
+scikit-learn = "^1.3.0"
+pyyaml = "^6.0"
+tabulate = "^0.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

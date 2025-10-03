@@ -1,0 +1,13 @@
+commune,year,category,amount,source_file,classification
+Augsburg,2020,IT infrastructure,500000.0,sample_household_data.csv,digital
+Augsburg,2020,Personnel costs digital,200000.0,sample_household_data.csv,digital
+Augsburg,2020,Outsourcing services,100000.0,sample_household_data.csv,outsourcing
+Augsburg,2020,Other administration,300000.0,sample_household_data.csv,other
+Augsburg,2021,IT upgrade,600000.0,sample_household_data.csv,digital
+Augsburg,2021,Personnel digitalization,250000.0,sample_household_data.csv,digital
+Augsburg,2021,Outsourcing support,120000.0,sample_household_data.csv,outsourcing
+Augsburg,2021,General services,350000.0,sample_household_data.csv,other
+Munich,2020,IT infrastructure,800000.0,sample_household_data.csv,digital
+Munich,2020,Personnel costs digital,300000.0,sample_household_data.csv,digital
+Munich,2020,Outsourcing services,200000.0,sample_household_data.csv,outsourcing
+Munich,2020,Other administration,500000.0,sample_household_data.csv,other

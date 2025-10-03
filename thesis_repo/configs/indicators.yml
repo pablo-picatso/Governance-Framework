@@ -1,0 +1,9 @@
+digital_ratio:
+  description: "Anteil des digitalen Budgets am Gesamtbudget"
+  formula: "digital_budget / total_budget"
+outsourcing_ratio:
+  description: "Anteil der Auslagerungen am Gesamtbudget"
+  formula: "outsourcing_budget / total_budget"
+personnel_ratio:
+  description: "Anteil der Personalkosten am Gesamtbudget"
+  formula: "personnel_budget / total_budget"
